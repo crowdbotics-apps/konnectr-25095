@@ -49,3 +49,8 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+
+class Properties(models.Model):
+    "Generated Model"
+    property_id = models.UUIDField()
